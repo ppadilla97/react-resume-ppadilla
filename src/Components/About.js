@@ -15,7 +15,7 @@ class About extends Component {
       var email = this.props.data.email;
       var resumeDownloadEnglish = this.props.data.resumedownloadEnglish;
       var resumeDownloadSpanish = this.props.data.resumedownloadSpanish;
-      var resumeDownloadCatalan = this.props.data.resumeDownloadCatalan;
+      var resumeDownloadCatalan = this.props.data.resumedownloadCatalan;
     }
 
     return (
