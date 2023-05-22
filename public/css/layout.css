@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #cc0000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -645,7 +645,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/texture-dark.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/redstamp.png) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
