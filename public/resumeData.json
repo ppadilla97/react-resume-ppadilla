@@ -28,11 +28,6 @@
         "className": "fa fa-github"
       },
       {
-        "name": "Stack Overflow",
-        "url": "#",
-        "className": "fa fa-stack-overflow"
-      },
-      {
         "name": "facebook",
         "url": "#",
         "className": "fa fa-facebook"
