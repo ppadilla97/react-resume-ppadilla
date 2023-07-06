@@ -704,6 +704,13 @@ call-to-action .button {
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
+#language {
+ color: #00CCCC;
+}
+
+
+
+
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -1009,3 +1016,7 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #cc0000; }
+.languageIcon{
+   content: "\F1AB";  /* this is your text. You can also use UTF-8 character codes as I do here */
+   font-family: FontAwesome;
+}

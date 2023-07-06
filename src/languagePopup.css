@@ -1,0 +1,85 @@
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+  
+  .popup {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+  }
+
+  .buttonsList {
+    display: flex;
+  }
+  .divPopup{
+    position: static;
+  }
+  .comic-bubble {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .arrow-down {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    transform: translateX(-50%);
+    border: 15px solid transparent;
+    border-bottom-color: #fff;
+  }
+  .optionsText {
+    color: #000;
+  }
+
+  .buttonLanguageEsp {
+    background-image: url("../public/images/españa.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+  }
+  .buttonLanguageEn {
+    background-image: url("../public/images/ingles.png");
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    margin-left: 5px;
+  }
+  .buttonLanguageCat {
+    background-image: url("../public/images/Catalonia.png");
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    margin-left: 5px;
+  }
+  .hidden {
+    color: transparent;
+  }
+  
+  .visible {
+    color: #fff;
+  }

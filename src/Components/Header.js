@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import LanguagePopup from './LanguagePopup';
+
 
 class Header extends Component {
   render() {
@@ -27,6 +29,7 @@ class Header extends Component {
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><LanguagePopup/></li>
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
@@ -38,7 +41,10 @@ class Header extends Component {
             <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
-               {networks}
+               <li>
+                  {networks}
+               </li>
+
             </ul>
          </div>
       </div>
@@ -50,6 +56,7 @@ class Header extends Component {
    </header>
     );
   }
-}
+
+   }
 
 export default Header;
