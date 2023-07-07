@@ -3,6 +3,12 @@ import LanguagePopup from './LanguagePopup';
 
 
 class Header extends Component {
+
+   handleClickOption = () => {
+      this.props.onMenuOptionClick();
+      // Lógica adicional para la opción del menú
+    };
+
   render() {
 
     if(this.props.data){
@@ -24,12 +30,12 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><LanguagePopup/></li>
+            <li className="current" onClick={this.handleClickOption}><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#about" onClick={this.handleClickOption}>About</a></li>
+	         <li><a className="smoothscroll" href="#resume" onClick={this.handleClickOption}>Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio" onClick={this.handleClickOption}>Works</a></li>
+            <li><a className="smoothscroll" href="#testimonials" onClick={this.handleClickOption}>Testimonials</a></li>
+            <li><LanguagePopup objectRef={this.props.objectRef} /></li>
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
