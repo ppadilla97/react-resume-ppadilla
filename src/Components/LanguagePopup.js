@@ -13,7 +13,8 @@ class LanguagePopup extends Component {
 
   togglePopup = () => {
     this.setState((prevState) => ({
-      showPopup: !prevState.showPopup
+      showPopup: !prevState.showPopup,
+      svgColor: 'currentColor'
     }));
   };
 
